@@ -47,7 +47,7 @@ def verifyPassword(password: str, rules: Any) -> Tuple[bool, Any]:
             verificationFn = rulesVerificationFn[rule.rule]
         except KeyError:
             verify = True
-            noMatchRules.append('Rule de tratamento inexistente')
+            noMatchRules.append(schema.Rule(rule='rule inexistente',value=0))
             continue
 
         if not verificationFn(**kwargs):
