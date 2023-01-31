@@ -55,10 +55,10 @@ Exemplo de saida:
 
 ### Tecnologias e suas versões:
 Foi utilizado:
-        Python 3.11.1 64-bit
-        Strawberry para definição do schema : [https://strawberry.rocks/docs]
-        FastApi para a criação da API: [https://fastapi.tiangolo.com/]
-        Uvicórn como servidor ASGI:[https://www.uvicorn.org/]
+    ● Python 3.11.1 64-bit
+    ● Strawberry para definição do schema : [https://strawberry.rocks/docs]
+    ● FastApi para a criação da API: [https://fastapi.tiangolo.com/]
+    ● Uvicórn como servidor ASGI:[https://www.uvicorn.org/]
 
 # Execução:
 Entre na pasta do projeto pelo terminal cd PASSWORD-VERIFICATION
