@@ -74,6 +74,7 @@ Foi utilizado:
 Entre na pasta do projeto pelo terminal cd PASSWORD-VERIFICATION
 
 Execulte:
+
   ```pip install -r requirements.txt``` 
 para instalar os pacotes registrados no requirements.txt
 
