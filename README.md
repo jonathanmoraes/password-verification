@@ -61,17 +61,19 @@ Exemplo de saida:
         Uvicórn como servidor ASGI:[https://www.uvicorn.org/]
 
 # Execução:
-    entre na pasta do projeto pelo terminal cd PASSWORD-VERIFICATION
+Entre na pasta do projeto pelo terminal cd PASSWORD-VERIFICATION
 
-    ##execulte:
-      ```pip install -r requirements.txt``` 
-      para instalar os pacotes registrados no requirements.txt
+Execulte:
+  ```pip install -r requirements.txt``` 
+para instalar os pacotes registrados no requirements.txt
 
-      ```python -m uvicorn main:app --reload```
-      para execultar o servidor 
+  ```python -m uvicorn main:app --reload```
+para execultar o servidor 
 
 # Acessar
-    http://localhost:8000/graphql para acessar a interface do Strawberry GraphiQL
+Para acessar a interface do Strawberry GraphiQL
+    http://localhost:8000/graphql 
+
 
 
 
