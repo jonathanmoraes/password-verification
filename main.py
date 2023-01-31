@@ -12,6 +12,7 @@ app = FastAPI()
 def read_root():
     return
 
+
 schema = strawberry.Schema(query=Query)
 
 graphql_app = GraphQL(schema)

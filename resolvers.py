@@ -1,6 +1,7 @@
 import re
 from typing import Any, Tuple
 
+
 def minSize(password: str, value: int) -> bool:
     return len(password) >= value
 
@@ -46,7 +47,7 @@ def verifyPassword(password: str, rules: Any) -> Tuple[bool, Any]:
             verificationFn = rulesVerificationFn[rule.rule]
         except KeyError:
             verify = True
-            noMatchRules.append('rule inexistente')
+            noMatchRules.append("rule inexistente")
             continue
 
         if not verificationFn(**kwargs):
