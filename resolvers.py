@@ -1,5 +1,4 @@
 import re
-import schema
 from typing import Any, Tuple
 
 def minSize(password: str, value: int) -> bool:
