@@ -1,4 +1,3 @@
-
 # Password checker
 
 Dada uma palavra contínua, e um conjunto de regras, verifica se a senha é válida
