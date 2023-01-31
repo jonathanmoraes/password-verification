@@ -3,12 +3,12 @@
 Dada uma palavra contínua, e um conjunto de regras, verifica se a senha é válida
 baseada nas regras:
 
-    * minSize: ter pelo menos x caracteres.
-    * minUppercase: ter pelo menos x caracteres maiúsculos
-    * minLowercase: ter pelo menos x caracteres minúsculos
-    * minDigit: ter pelo menos x dígitos (0-9)
-    * minSpecialChars: ter pelo menos x caracteres especiaisda seguinte string: "!@#$%^&*()-+\/{}[]" )
-    * noRepeted: não tenha nenhum caractere repetido em sequência
+    ● minSize: ter pelo menos x caracteres.
+    ● minUppercase: ter pelo menos x caracteres maiúsculos
+    ● minLowercase: ter pelo menos x caracteres minúsculos
+    ● minDigit: ter pelo menos x dígitos (0-9)
+    ● minSpecialChars: ter pelo menos x caracteres especiaisda seguinte string: "!@#$%^&*()-+\/{}[]" )
+    ● noRepeted: não tenha nenhum caractere repetido em sequência
 
 # Entrada
 
