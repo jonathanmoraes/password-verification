@@ -58,10 +58,20 @@ Exemplo de saida:
         Python 3.11.1 64-bit
         Strawberry para definição do schema : [https://strawberry.rocks/docs]
         FastApi para a criação da API: [https://fastapi.tiangolo.com/]
+        Uvicórn como servidor ASGI:[https://www.uvicorn.org/]
 
 # Execução:
+    entre na pasta do projeto pelo terminal cd PASSWORD-VERIFICATION
 
-    
+    ##execulte:
+      ```pip install -r requirements.txt``` 
+      para instalar os pacotes registrados no requirements.txt
+
+      ```python -m uvicorn main:app --reload```
+      para execultar o servidor 
+
+# Acessar
+    http://localhost:8000/graphql para acessar a interface do Strawberry GraphiQL
 
 
 
